@@ -1,0 +1,14 @@
+.info {
+    @include flexCenter(row);
+    @extend header;
+
+    background-color: $subBackgroundColor;
+
+    button {
+        background-color: $subButton;
+
+        &:hover {
+            background-color: $subButtonHover;
+        }
+    }
+}

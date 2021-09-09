@@ -1,0 +1,15 @@
+header {
+    @include flexCenter(column);
+
+    background-color: $mainBackgroundColor;
+    color: $mainText;
+    font-size: $headerFontSize;
+
+    button {
+        background-color: $mainButton;
+
+        &:hover {
+            background-color: $mainButtonHover;
+        }
+    }
+}

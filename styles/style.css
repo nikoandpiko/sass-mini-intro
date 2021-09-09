@@ -1,0 +1,54 @@
+header, .info {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #91e9e2;
+  color: #3f3f3f;
+  font-size: 1em;
+}
+
+header button, .info button {
+  background-color: #00aaff;
+}
+
+header button:hover, .info button:hover {
+  background-color: #ff00d4;
+}
+
+.info {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #f8b9f8;
+}
+
+.info button {
+  background-color: #f115f1;
+}
+
+.info button:hover {
+  background-color: #8295ff;
+}
+/*# sourceMappingURL=style.css.map */

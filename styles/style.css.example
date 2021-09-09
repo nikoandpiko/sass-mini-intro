@@ -1,0 +1,35 @@
+/* Old'n'Busted */
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #91e9e2;
+    color: #3f3f3f;
+}
+
+header button {
+    background-color: #00aaff;
+}
+
+header button:hover {
+    background-color: #ff00d4;
+}
+
+.info {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f8b9f8;
+}
+
+.info button {
+    background-color: #f115f1;
+}
+
+.info button:hover {
+    background-color: #8295ff;
+}
